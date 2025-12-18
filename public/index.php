@@ -14,7 +14,7 @@
     </p>
     <div class="mt-4 p-3 rounded-xl bg-slate-800">
       <p class="text-sm text-slate-300">
-        Coming Soon Yipeee...
+        Coming Soon...
       </p>
     </div>
   </div>
