@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section id="projects" class="flex items-center justify-center text-center min-h-screen px-8 pt-24 pb-16 bg-[#04373b]">
+        <section id="projects" class="flex items-center justify-center text-center min-h-screen px-8 pt-24 pb-16 bg-[#04373b]">
         <div class="max-w-[1200px] w-full">
             <div class="mb-12 text-center">
             <h2 class="text-5xl text-[#40985e] font-bold mb-8">Featured Projects</h2>
@@ -64,8 +64,8 @@
 
             <div class="grid gap-8 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
                 <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
-                    <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
-                        🎨
+                    <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)] p-8">
+                        <img src="img/aeroson_logo.png" alt="Aeroson Logo" class="h-[150px] w-auto object-contain" />
                     </div>
                     <div class="p-[1.5rem] text-left">
                         <h3 class="text-[#40985e] text-xl mb-2 font-bold">Aeroson (Air Quality and Noise Pollution Monitoring System)</h3>
@@ -74,8 +74,8 @@
                 </div>
 
                 <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
-                    <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
-                        💻
+                    <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)] p-8">
+                        <img src="img/eduportal_logo.png" alt="EduPortal Logo" class="h-[130px] w-auto object-contain brightness-110 contrast-125 saturate-150 drop-shadow-[0_0_30px_rgba(100,220,130,0.8)]" />
                     </div>
                     <div class="p-[1.5rem] text-left">
                         <h3 class="text-[#40985e] text-xl mb-2 font-bold">EduPortal (Learning Management System)</h3>
@@ -84,18 +84,17 @@
                 </div>
 
                 <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
-                    <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
-                        📱
-                    </div>
-                    <div class="p-[1.5rem] text-left">
-                        <h3 class="text-[#40985e] text-xl mb-2 font-bold">Quiz Pixel (Multiplayer Quiz System)</h3>
-                        <p>An interactive live multiplayer quiz system that brings learning and competition together with real-time participation and instant scoring.</p>
+                        <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)] p-8">
+                            <img src="img/quiz_pixel_logo.png" alt="Quiz Pixel Logo" class="h-[180px] w-auto object-contain drop-shadow-[0_0_30px_rgba(100,220,130,0.6)]" />
+                        </div>
+                        <div class="p-[1.5rem] text-left">
+                            <h3 class="text-[#40985e] text-xl mb-2 font-bold">Quiz Pixel (Multiplayer Quiz System)</h3>
+                            <p>An interactive live multiplayer quiz system that brings learning and competition together with real-time participation and instant scoring.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-
 
     <section id="contact" class="flex items-center justify-center text-center min-h-screen px-8 pt-24 pb-16 bg-[#0a1a2f]">
         <div class="max-w-[1200px] w-full">
