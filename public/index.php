@@ -33,15 +33,15 @@
             <div class="grid grid-cols-2 gap-12 items-center px-26">
                 <div class="text-left">
                     <h2 class="text-5xl text-[#40985e] mb-6 font-bold">About Me</h2>
-                    <p class="text-lg mb-6">Hello! I'm a passionate designer and developer with a keen eye for aesthetics and functionality. I specialize in creating engaging digital experiences that merge beautiful design with seamless user interactions.</p>
-                    <p class="text-lg mb-6">With years of experience in the industry, I've worked on diverse projects ranging from web applications to brand identities, always striving to deliver exceptional results that exceed expectations.</p>
+                    <p class="text-lg mb-6">Hello! I'm Sir Victor D. Aquino, a full-stack developer with a keen eye for aesthetics and functionality. I specialize in creating engaging digital experiences that merge beautiful design with seamless user interactions.</p>
+                    <p class="text-lg mb-6">With years of experience tinkering and developing systems, I've worked on diverse projects ranging from web applications to brand identities, always striving to deliver exceptional results that exceed expectations.</p>
                     <div class="flex flex-wrap gap-4 mt-2">
-                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">UI/UX Design</span>
-                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">Web Development</span>
-                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">Branding</span>
+                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">Cloud Services</span>
+                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">Laravel</span>
+                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">Spring Boot</span>
                         <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">JavaScript</span>
-                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">CSS</span>
-                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">React</span>
+                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">Tailwind</span>
+                        <span class="bg-[#04373b] py-2 px-4 border border-[#1a644e] rounded-2xl">MySQL</span>
                     </div>
                 </div>
                 <div class="about-image">
@@ -59,39 +59,39 @@
         <div class="max-w-[1200px] w-full">
             <div class="mb-12 text-center">
             <h2 class="text-5xl text-[#40985e] font-bold mb-8">Featured Projects</h2>
-            <p class="text-[1.1rem]">A selection of my recent work</p>
+                <p class="text-[1.1rem]">A selection of my recent work</p>
             </div>
 
             <div class="grid gap-8 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
-            <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
-                <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
-                    🎨
+                <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
+                    <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
+                        🎨
+                    </div>
+                    <div class="p-[1.5rem] text-left">
+                        <h3 class="text-[#40985e] text-xl mb-2 font-bold">Aeroson (Air Quality and Noise Pollution Monitoring System)</h3>
+                        <p>A smart, real-time air quality and noise pollution monitoring system that delivers actionable insights through predictive analysis.</p>
+                    </div>
                 </div>
-                <div class="p-[1.5rem] text-left">
-                <h3 class="text-[#40985e] text-xl mb-2 font-bold">Brand Identity Design</h3>
-                <p>Complete brand identity system for a modern tech startup, including logo, color palette, and style guide.</p>
-                </div>
-            </div>
 
-            <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
-                <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
-                    💻
+                <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
+                    <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
+                        💻
+                    </div>
+                    <div class="p-[1.5rem] text-left">
+                        <h3 class="text-[#40985e] text-xl mb-2 font-bold">EduPortal (Learning Management System)</h3>
+                        <p>A modern learning management system that streamlines teaching, learning, and progress tracking in one intuitive platform.</p>
+                    </div>
                 </div>
-                <div class="p-[1.5rem] text-left">
-                <h3 class="text-[#40985e] text-xl mb-2 font-bold">E-Commerce Platform</h3>
-                <p>Full-stack e-commerce solution with intuitive user experience and seamless checkout process.</p>
-                </div>
-            </div>
 
-            <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
-                <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
-                    📱
+                <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
+                    <div class="flex items-center justify-center w-full h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)]">
+                        📱
+                    </div>
+                    <div class="p-[1.5rem] text-left">
+                        <h3 class="text-[#40985e] text-xl mb-2 font-bold">Quiz Pixel (Multiplayer Quiz System)</h3>
+                        <p>An interactive live multiplayer quiz system that brings learning and competition together with real-time participation and instant scoring.</p>
+                    </div>
                 </div>
-                <div class="p-[1.5rem] text-left">
-                <h3 class="text-[#40985e] text-xl mb-2 font-bold">Mobile App Design</h3>
-                <p>UI/UX design for a fitness tracking mobile application with focus on user engagement.</p>
-                </div>
-            </div>
             </div>
         </div>
     </section>
@@ -107,7 +107,7 @@
                     <a href="#" class="text-[#d1cb95] no-undeerline text-lg transition-colors duration-300 hover:text-[#40985e]">Email</a>
                     <a href="#" class="text-[#d1cb95] no-undeerline text-lg transition-colors duration-300 hover:text-[#40985e]">LinkedIn</a>
                     <a href="#" class="text-[#d1cb95] no-undeerline text-lg transition-colors duration-300 hover:text-[#40985e]">GitHub</a>
-                    <a href="#" class="text-[#d1cb95] no-undeerline text-lg transition-colors duration-300 hover:text-[#40985e]">Twitter</a>
+                    <a href="#" class="text-[#d1cb95] no-undeerline text-lg transition-colors duration-300 hover:text-[#40985e]">Facebook</a>
                 </div>
             </div>
         </div>
