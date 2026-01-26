@@ -1,11 +1,8 @@
 module.exports = {
   content: [
-    "./**/*.php",
-    "./**/*.html",
-    "./src/**/*.js",   // ONLY if you actually write JS here
+    "./public/**/*.{php,html,js}",
+    "./src/**/*.{js,css}",
   ],
-  theme: {
-    extend: {},
-  },
+  theme: { extend: {} },
   plugins: [],
 }
