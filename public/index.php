@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aquino Portfolio</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/Portfolio/dist/output.css">
 </head>
 <body class="bg-[#0a1a2f] font-sans text-[#d1cb95] text-base leading-7 overflow-x-hidden">
     <!-- Navigation -->
@@ -66,7 +66,7 @@
 
             <div class="grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <!-- Aeroson Project -->
-                <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
+                <a href="https://aeroson-monitoring.com/" target="_blank" class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
                     <div class="flex items-center justify-center w-full h-[180px] sm:h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)] p-6 sm:p-8">
                         <img src="img/aeroson_logo.png" alt="Aeroson Logo" class="h-[120px] sm:h-[150px] w-auto object-contain" />
                     </div>
@@ -74,10 +74,10 @@
                         <h3 class="text-[#40985e] text-lg sm:text-xl mb-2 font-bold">Aeroson (Air Quality and Noise Pollution Monitoring System)</h3>
                         <p class="text-sm sm:text-base">A smart, real-time air quality and noise pollution monitoring system that delivers actionable insights through predictive analysis.</p>
                     </div>
-                </div>
+                </a>
 
                 <!-- EduPortal Project -->
-                <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
+                <a href="#" class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
                     <div class="flex items-center justify-center w-full h-[180px] sm:h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)] p-6 sm:p-8">
                         <img src="img/eduportal_logo.png" alt="EduPortal Logo" class="h-[110px] sm:h-[130px] w-auto object-contain brightness-110 contrast-125 saturate-150 drop-shadow-[0_0_30px_rgba(100,220,130,0.8)]" />
                     </div>
@@ -85,10 +85,10 @@
                         <h3 class="text-[#40985e] text-lg sm:text-xl mb-2 font-bold">EduPortal (Learning Management System)</h3>
                         <p class="text-sm sm:text-base">A modern learning management system that streamlines teaching, learning, and progress tracking in one intuitive platform.</p>
                     </div>
-                </div>
+                </a>
 
                 <!-- Quiz Pixel Project -->
-                <div class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
+                <a href="#" class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
                     <div class="flex items-center justify-center w-full h-[180px] sm:h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)] p-6 sm:p-8">
                         <img src="img/quiz_pixel_logo.png" alt="Quiz Pixel Logo" class="h-[140px] sm:h-[180px] w-auto object-contain drop-shadow-[0_0_30px_rgba(100,220,130,0.6)]" />
                     </div>
@@ -96,7 +96,7 @@
                         <h3 class="text-[#40985e] text-lg sm:text-xl mb-2 font-bold">Quiz Pixel (Multiplayer Quiz System)</h3>
                         <p class="text-sm sm:text-base">An interactive live multiplayer quiz system that brings learning and competition together with real-time participation and instant scoring.</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
