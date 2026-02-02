@@ -38,7 +38,9 @@
                     <p class="text-base sm:text-lg mb-4 sm:mb-6">With years of experience tinkering and developing systems, I've worked on diverse projects ranging from web applications to brand identities, always striving to deliver exceptional results that exceed expectations.</p>
                     <div class="flex flex-wrap gap-3 sm:gap-4 mt-2">
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">Cloud Services</span>
+                        <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">PHP</span>
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">Laravel</span>
+                        <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">Java</span>
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">Spring Boot</span>
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">JavaScript</span>
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">Tailwind</span>
