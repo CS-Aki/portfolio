@@ -18,9 +18,15 @@ jobs:
 
       - name: Check connectivity
         run: |
+          set -x
           tailscale status
-          ping -c 3 100.103.96.121
-          timeout 5 bash -c "</dev/tcp/100.103.96.121/22" && echo "SSH port open"
+          echo "Runner TS IP: $(tailscale ip -4)"
+
+          # Test Tailscale connectivity to aquinohome (best signal)
+          tailscale ping -c 3 aquinohome
+
+          # Test SSH port without failing the whole job (prints result)
+          nc -vz -w 5 aquinohome 22 && echo "SSH reachable" || (echo "SSH not reachable"; exit 1)
 
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.2.0
