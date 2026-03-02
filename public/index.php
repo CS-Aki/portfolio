@@ -21,7 +21,7 @@
     <section id="hero" class="flex items-center justify-center text-center min-h-screen px-4 sm:px-8 pt-24 pb-16 bg-gradient-to-br from-[#04373b] to-[#0a1a2f]">
         <div class="max-w-[1200px] w-full">
             <div>
-                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 text-[#40985e] animate-in fade-in slide-in-from-top duration-1000">Full-Stack Developer 1</h1>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 text-[#40985e] animate-in fade-in slide-in-from-top duration-1000">Full-Stack Developer</h1>
                 <p class="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 px-4">Crafting digital experiences with passion and precision</p>
                 <a href="#projects" class="inline-block py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base text-[#d1cb95] bg-[#1a644e] no-underline border-2 border-[#1a644e] rounded-md transition-all duration-300 hover:bg-transparent hover:border-[#40985e] hover:text-[#40985e] hover:-translate-y-0.5">View My Work</a>
             </div>
