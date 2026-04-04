@@ -79,7 +79,7 @@
                 </a>
 
                 <!-- EduPortal Project -->
-                <a href="#" class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
+                <a href="https://eduportal.aki-dev.online/" class="bg-[#0a1a2f] rounded-[10px] overflow-hidden border border-[#1a644e] transition-transform duration-300 hover:-translate-y-[10px]">
                     <div class="flex items-center justify-center w-full h-[180px] sm:h-[200px] text-[3rem] text-[#d1cb95] bg-[linear-gradient(135deg,#1a644e_0%,#40985e_100%)] p-6 sm:p-8">
                         <img src="img/eduportal_logo.png" alt="EduPortal Logo" class="h-[110px] sm:h-[130px] w-auto object-contain brightness-110 contrast-125 saturate-150 drop-shadow-[0_0_30px_rgba(100,220,130,0.8)]" />
                     </div>
