@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquino Portfolio</title>
+    <title>Aquino Portfoli</title>
     <link rel="stylesheet" href="/dist/output.css">
 </head>
 <body class="bg-[#0a1a2f] font-sans text-[#d1cb95] text-base leading-7 overflow-x-hidden">
