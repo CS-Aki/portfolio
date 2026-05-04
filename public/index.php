@@ -45,29 +45,24 @@
                 </div>
 
                 <!-- Profile image over circle -->
-                <div class="flex justify-center mt-8 lg:mt-0">
+<div class="flex justify-center mt-8 lg:mt-0">
 
-                    <div class="relative w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px] flex items-center justify-center">
+    <div class="relative w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px] flex items-center justify-center">
 
-                        <!-- BACKGROUND CIRCLE LAYER (DIV instead of SVG = more reliable) -->
-                        <div class="absolute w-[110%] h-[110%] rounded-full border-2 border-[#40985e] opacity-40"></div>
+        <!-- OUTER RING -->
+        <div class="absolute w-[120%] h-[120%] rounded-full border-2 border-[#40985e] opacity-40"></div>
 
-                        <div class="absolute w-[85%] h-[85%] rounded-full border-2 border-[#1a644e] opacity-60"></div>
+        <!-- INNER RING -->
+        <div class="absolute w-[90%] h-[90%] rounded-full border-2 border-[#1a644e] opacity-60"></div>
 
-                        <!-- IMAGE (always on top) -->
-                        <img
-                            src="img/profile.png"
-                            alt="Victor Aquino"
-                            class="relative z-10 
-                                w-[160px] h-[160px] 
-                                sm:w-[220px] sm:h-[220px] 
-                                lg:w-[260px] lg:h-[260px] 
-                                rounded-full object-cover 
-                                border-4 border-[#40985e] 
-                                shadow-[0_0_30px_rgba(64,152,94,0.4)]"
-                        />
-                    </div>
-                </div>
+        <!-- CENTER IMAGE -->
+        <img
+            src="img/profile.png"
+            class="relative z-10 w-[160px] h-[160px] sm:w-[220px] sm:h-[220px] lg:w-[260px] lg:h-[260px] rounded-full object-cover border-4 border-[#40985e] shadow-[0_0_30px_rgba(64,152,94,0.4)]"
+        />
+
+    </div>
+</div>
             </div>
         </div>
     </section>
