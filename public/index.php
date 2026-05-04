@@ -64,7 +64,7 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="flex items-center justify-center text-center min-h-screen px-4 sm:px-8 pt-24 pb-16 bg-[#04373b]">
+    <section id="experience" class="flex items-center justify-center text-center min-h-screen px-4 sm:px-8 pt-18 pb-12 bg-[#04373b]">
         <div class="max-w-[1200px] w-full">
             <div class="mb-8 sm:mb-12 text-center">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl text-[#40985e] font-bold mb-4 sm:mb-8">Experience</h2>
