@@ -89,7 +89,7 @@
                             </div>
 
                             <!-- Right side -->
-                            <div class="flex-shrink-0 text-right">
+                            <div class="ml-12 text-right">
                                 <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
                                     April 2025 – July 2025
                                 </span>
