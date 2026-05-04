@@ -75,10 +75,15 @@
                 <!-- Internship -->
                 <div class="relative pl-8 sm:pl-12 text-left">
                     <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
-                    <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
+                    <div class="relative bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-6 sm:p-8 pt-14 sm:pt-8">
                        <div class="relative mb-6 w-full">
-                            <!-- Content (left side) -->
-                            <div class="pr-0 sm:pr-32 pt-8 sm:pt-0">
+                            <div class="absolute top-4 right-4 sm:top-6 sm:right-6 text-right">
+                                <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
+                                    April 2025 – July 2025
+                                </span>
+                            </div>
+
+                            <div>
                                 <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
                                     Full Stack Laravel Developer Intern
                                 </h3>
@@ -86,13 +91,6 @@
                                 <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium">
                                     Automobile Association Philippines
                                 </p>
-                            </div>
-
-                            <!-- Date (top-right always) -->
-                            <div class="absolute top-0 right-0 text-right">
-                                <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
-                                    April 2025 – July 2025
-                                </span>
                             </div>
 
                         </div>
