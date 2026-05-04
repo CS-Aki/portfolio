@@ -76,10 +76,10 @@
                 <div class="relative pl-8 sm:pl-12 text-left">
                     <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
                     <div class="relative bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-6 sm:p-8 pt-14 sm:pt-8">
-                       <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-4 mb-6 w-full">
+<div class="flex flex-col sm:flex-row sm:items-start sm:justify-between w-full gap-2 sm:gap-6 mb-6">
 
-    <!-- Left side -->
-    <div class="flex-1 min-w-0">
+    <!-- LEFT SIDE (takes full available space) -->
+    <div class="sm:flex-1 w-full min-w-0">
         <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
             Full Stack Laravel Developer Intern
         </h3>
@@ -89,9 +89,9 @@
         </p>
     </div>
 
-    <!-- Right side (always right on desktop, stacked on mobile) -->
-    <div class="sm:text-right text-left flex-shrink-0">
-        <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
+    <!-- RIGHT SIDE (forced far right) -->
+    <div class="sm:ml-auto sm:text-right w-full sm:w-auto flex-shrink-0">
+        <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap block">
             April 2025 – July 2025
         </span>
     </div>
