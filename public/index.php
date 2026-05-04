@@ -111,7 +111,7 @@
                 </div>
             </div>
 
-                        <div class="max-w-[800px] mx-auto">
+            <div class="max-w-[800px] mx-auto mt-8">
                 <!-- Internship -->
                 <div class="relative pl-8 sm:pl-12 text-left">
                     <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
