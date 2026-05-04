@@ -47,12 +47,16 @@
                 <!-- Profile image over circle -->
                 <div class="flex justify-center mt-8 lg:mt-0">
                     <div class="relative flex items-center justify-center w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px]">
-                        <svg class="absolute inset-0 w-full h-full z-0" viewBox="0 0 100 100">
-                            <circle cx="50" cy="50" r="48" fill="#1a644e" opacity="0.4"/>
-                            <circle cx="50" cy="50" r="40" fill="#40985e" opacity="0.5"/>
-                            <circle cx="50" cy="50" r="32" fill="#d1cb95" opacity="0.3"/>
+
+                        <!-- Bigger SVG pushed outside so it's visible -->
+                        <svg class="absolute -inset-12 w-[calc(100%+6rem)] h-[calc(100%+6rem)] z-0" viewBox="0 0 100 100">
+                            <!-- Outer glow -->
+                            <circle cx="50" cy="50" r="48" fill="#40985e" opacity="0.25"/>
+                            <!-- Mid layer -->
+                            <circle cx="50" cy="50" r="40" fill="#1a644e" opacity="0.35"/>
                         </svg>
 
+                        <!-- Profile Image -->
                         <img
                             src="img/profile.png"
                             alt="Victor Aquino"
