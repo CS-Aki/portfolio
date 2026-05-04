@@ -34,8 +34,10 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <div class="text-left px-4 sm:px-0">
                     <h2 class="text-3xl sm:text-4xl lg:text-5xl text-[#40985e] mb-4 sm:mb-6 font-bold">About Me</h2>
-                    <p class="text-base sm:text-lg mb-4 sm:mb-6">Hello! I'm Sir Victor D. Aquino, a full-stack developer with a keen eye for aesthetics and functionality. I specialize in creating engaging digital experiences that merge beautiful design with seamless user interactions.</p>
-                    <p class="text-base sm:text-lg mb-4 sm:mb-6">With years of experience tinkering and developing systems, I've worked on diverse projects ranging from web applications to brand identities, always striving to deliver exceptional results that exceed expectations.</p>
+                    <p class="text-base sm:text-lg mb-4 sm:mb-6">I'm Victor, a Computer Science graduate from the University of Caloocan City — and honestly, I just really enjoy building things that work well.</p>
+                    <p class="text-base sm:text-lg mb-4 sm:mb-6">My background is mostly full-stack web development. I'm most comfortable in Laravel and Java, but I've picked up a pretty wide stack over time — from embedded C++ for IoT sensors to Flutter for mobile. I tend to gravitate toward projects where the backend logic actually has to think, not just move data around.</p>
+                    <p class="text-base sm:text-lg mb-4 sm:mb-6">Most recently, I interned as a Full Stack Developer at Automobile Association Philippines, where I helped build internal tools for HR and customer management. Before that, I led development on Aeroson — an air quality monitoring system that combined hardware sensors, real-time web dashboards, and a mobile app. That one taught me a lot.</p>
+                    <p class="text-base sm:text-lg mb-4 sm:mb-6">I'm currently looking for opportunities where I can keep growing, contribute to a solid team, and work on problems that are actually worth solving.</p>
                     <div class="flex flex-wrap gap-3 sm:gap-4 mt-2">
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">Cloud Services</span>
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">PHP</span>
