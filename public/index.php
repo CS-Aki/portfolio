@@ -64,7 +64,7 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="flex items-center justify-center text-center min-h-screen px-4 sm:px-8 pt-18 pb-12 bg-[#04373b]">
+    <section id="experience" class="flex items-center justify-center text-center min-h-screen px-4 sm:px-8 pt-18 pb-16 bg-[#04373b]">
         <div class="max-w-[1200px] w-full">
             <div class="mb-8 sm:mb-12 text-center">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl text-[#40985e] font-bold mb-4 sm:mb-8">Experience</h2>
@@ -76,15 +76,19 @@
                 <div class="relative pl-8 sm:pl-12 text-left">
                     <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
-                        <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
-                            Full Stack Laravel Developer Intern
-                        </h3>
-                        <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium mb-1">
-                            Automobile Association Philippines
-                        </p>
-                        <p class="text-xs sm:text-sm text-[#d1cb95] opacity-60 mb-4">
-                            April 2025 – July 2025
-                        </p>
+                        <div class="flex items-start justify-between gap-4 mb-4">
+                            <div>
+                                <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
+                                    Full Stack Laravel Developer Intern
+                                </h3>
+                                <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium">
+                                    Automobile Association Philippines
+                                </p>
+                            </div>
+                            <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap pt-1">
+                                April 2025 – July 2025
+                            </span>
+                        </div>
                         <ul class="space-y-2 text-sm sm:text-base list-none">
                             <li class="flex gap-3">
                                 <span class="text-[#40985e] mt-1 shrink-0">▹</span>
@@ -99,7 +103,7 @@
                                 <span>Contributed to the development of a Customer Management System (CMS) used for customer behavior tracking, business analytics, and automated bulk email communication.</span>
                             </li>
                         </ul>
-                        <div class="flex flex-wrap gap-2 mt-4">
+                        <div class="flex flex-wrap gap-3 mt-6">
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Laravel</span>
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Livewire</span>
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Alpine.js</span>
