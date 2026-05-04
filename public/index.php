@@ -39,7 +39,7 @@
 
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6 w-full">
 
-                        <div class="flex flex-row flex-nowrap items-start justify-between gap-4 mb-4 w-full">
+                        <div class="flex flex-row flex-nowrap items-start justify-right gap-4 mb-4 w-full">
                             <!-- Left side -->
                             <div class="flex-1 min-w-0">
                                 <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
@@ -51,7 +51,7 @@
                             </div>
 
                             <!-- Right side -->
-                            <div class="flex-shrink-0 text-right ml-40">
+                            <div class="flex-shrink-0 text-right">
                                 <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
                                     April 2025 – July 2025
                                 </span>
