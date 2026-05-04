@@ -28,8 +28,8 @@
                     <p class="text-base sm:text-lg mb-4 sm:mb-6">I'm currently looking for opportunities where I can keep growing, contribute to a solid team, and work on problems that are actually worth solving.</p>
 
                     <!-- Education one-liner -->
-                    <p class="text-sm text-[#d1cb95] opacity-60 mb-5">
-                        🎓 BS Computer Science, Cum Laude · GWA 1.26 · TESDA NC III Java (2024)
+                    <p class="text-sm text-[#d1cb95] opacity-60 mb-8">
+                        BS Computer Science, Cum Laude · GWA 1.26 · TESDA NC III Java (2024)
                     </p>
 
                     <div class="flex flex-wrap gap-3 sm:gap-4 mt-2">
