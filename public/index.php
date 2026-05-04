@@ -39,10 +39,9 @@
 
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6 w-full">
 
-                        <div class="flex items-start justify-between mb-4 w-full">
-
+                       <div class="flex flex-row flex-nowrap items-start justify-between gap-4 mb-4 w-full">
                             <!-- Left side -->
-                            <div class="flex-1 min-w-0 pr-4">
+                            <div class="flex-1 min-w-0">
                                 <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
                                     Full Stack Laravel Developer Intern
                                 </h3>
