@@ -206,7 +206,8 @@
                 <p class="text-base sm:text-lg mb-6 sm:mb-8">I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
                 <a href="#" class="inline-block py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base text-[#d1cb95] bg-[#1a644e] no-underline border-2 border-[#1a644e] rounded-md transition-all duration-300 hover:bg-transparent hover:border-[#40985e] hover:text-[#40985e] hover:-translate-y-0.5">Get In Touch</a>
                 <div class="flex flex-wrap justify-center gap-4 sm:gap-8 mt-6 sm:mt-8">
-                    <a href="mailto:aquino.sir.victor.bscs2022@gmail.com" class="text-[#d1cb95] no-underline text-base sm:text-lg transition-colors duration-300 hover:text-[#40985e]">Email</a>                    <a href="https://www.linkedin.com/in/sir-victor-aquino" target="_blank"  class="text-[#d1cb95] no-underline text-base sm:text-lg transition-colors duration-300 hover:text-[#40985e]">LinkedIn</a>
+                    <a href="mailto:aquino.sir.victor.bscs2022@gmail.com" class="text-[#d1cb95] no-underline text-base sm:text-lg transition-colors duration-300 hover:text-[#40985e]">Email</a>                   
+                    <a href="https://www.linkedin.com/in/sir-victor-aquino" target="_blank"  class="text-[#d1cb95] no-underline text-base sm:text-lg transition-colors duration-300 hover:text-[#40985e]">LinkedIn</a>
                     <a href="https://github.com/CS-Aki" target="_blank" class="text-[#d1cb95] no-underline text-base sm:text-lg transition-colors duration-300 hover:text-[#40985e]">GitHub</a>
                     <a href="https://www.facebook.com/sirvictor.aquino" target="_blank" class="text-[#d1cb95] no-underline text-base sm:text-lg transition-colors duration-300 hover:text-[#40985e]">Facebook</a>
                 </div>
