@@ -76,7 +76,7 @@
                 <div class="relative pl-8 sm:pl-12 text-left">
                     <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
-                        <div class="flex items-start justify-between mb-4 w-full">
+                        <div class="flex items-start justify-between mb-4 w-full flex-nowrap">
 
                             <!-- Left side -->
                             <div class="flex-1 min-w-0 pr-4">
