@@ -51,13 +51,24 @@
                                 sm:w-[350px] sm:h-[350px] 
                                 lg:w-[400px] lg:h-[400px]">
 
-                        <!-- Background circle (bigger than container) -->
-                        <svg class="absolute w-[120%] h-[120%] z-0" viewBox="0 0 100 100">
-                            <circle cx="50" cy="50" r="48" fill="#40985e" opacity="0.25"/>
-                            <circle cx="50" cy="50" r="40" fill="#1a644e" opacity="0.35"/>
+                        <!-- BACKGROUND CIRCLES (safe + visible) -->
+                        <svg class="absolute inset-0 w-full h-full z-0" viewBox="0 0 100 100">
+                            <!-- outer glow -->
+                            <circle cx="50" cy="50" r="48"
+                                    fill="none"
+                                    stroke="#40985e"
+                                    stroke-width="2"
+                                    opacity="0.5"/>
+
+                            <!-- inner glow -->
+                            <circle cx="50" cy="50" r="38"
+                                    fill="none"
+                                    stroke="#1a644e"
+                                    stroke-width="2"
+                                    opacity="0.6"/>
                         </svg>
 
-                        <!-- Image -->
+                        <!-- PROFILE IMAGE -->
                         <img
                             src="img/profile.png"
                             alt="Victor Aquino"
