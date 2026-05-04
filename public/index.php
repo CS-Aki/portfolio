@@ -60,7 +60,7 @@
 
                         <!-- Profile Image -->
                         <img
-                            src="img/profile.png"
+                            src=""
                             alt="Victor Aquino"
                             class="relative z-10
                                 w-[160px] h-[160px]
