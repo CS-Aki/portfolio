@@ -88,7 +88,7 @@
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
                         <div class="flex flex-col gap-1 mb-3">
 
-                            <h3 class="text-[#40985e] text-lg sm:text-xl font-bold">Full Stack Laravel Developer Intern</h3>
+                            <h3 class="text-[#40985e] text-lg sm:text-xl font-bold block">Full Stack Laravel Developer Intern</h3>
                             <span class="text-sm text-[#d1cb95] opacity-70 whitespace-nowrap">April 2025 – July 2025</span>
                         </div>
                         <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium mb-4">Automobile Association Philippines</p>
@@ -123,7 +123,7 @@
 
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
                         <div class="flex flex-col gap-1 mb-3">
-                            <h3 class="text-[#40985e] text-lg sm:text-xl font-bold">BS Computer Science — Cum Laude</h3>
+                            <h3 class="text-[#40985e] text-lg sm:text-xl font-bold block">BS Computer Science — Cum Laude</h3>
                             <span class="text-sm text-[#d1cb95] opacity-70 whitespace-nowrap">Graduated 2025</span>
                         </div>
                         <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium mb-2">University of Caloocan City</p>
