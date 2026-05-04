@@ -76,10 +76,10 @@
                 <div class="relative pl-8 sm:pl-12 text-left">
                     <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
-                        <div class="flex items-start justify-between mb-4">
-                            
+                        <div class="flex items-start justify-between mb-4 w-full">
+
                             <!-- Left side -->
-                            <div class="min-w-0 pr-4">
+                            <div class="flex-1 min-w-0 pr-4">
                                 <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
                                     Full Stack Laravel Developer Intern
                                 </h3>
@@ -88,14 +88,15 @@
                                 </p>
                             </div>
 
-                            <!-- Right side (date pinned right) -->
-                            <div class="text-right shrink-0">
+                            <!-- Right side -->
+                            <div class="flex-shrink-0 text-right">
                                 <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
                                     April 2025 – July 2025
                                 </span>
                             </div>
 
                         </div>
+                        
                         <ul class="space-y-2 text-sm sm:text-base list-none">
                             <li class="flex gap-3">
                                 <span class="text-[#40985e] mt-1 shrink-0">▹</span>
