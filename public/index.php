@@ -76,8 +76,10 @@
                 <div class="relative pl-8 sm:pl-12 text-left">
                     <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
-                        <div class="flex items-start justify-between gap-4 mb-4">
-                            <div class="min-w-0">
+                        <div class="flex items-start justify-between mb-4">
+                            
+                            <!-- Left side -->
+                            <div class="min-w-0 pr-4">
                                 <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
                                     Full Stack Laravel Developer Intern
                                 </h3>
@@ -85,9 +87,14 @@
                                     Automobile Association Philippines
                                 </p>
                             </div>
-                            <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap shrink-0 ml-auto pt-1">
-                                April 2025 – July 2025
-                            </span>
+
+                            <!-- Right side (date pinned right) -->
+                            <div class="text-right shrink-0">
+                                <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
+                                    April 2025 – July 2025
+                                </span>
+                            </div>
+
                         </div>
                         <ul class="space-y-2 text-sm sm:text-base list-none">
                             <li class="flex gap-3">
