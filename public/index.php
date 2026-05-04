@@ -116,7 +116,6 @@
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Alpine.js</span>
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Tailwind CSS</span>
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">MySQL</span>
-                            <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">RBAC</span>
                         </div>
                     </div>
                 </div>
