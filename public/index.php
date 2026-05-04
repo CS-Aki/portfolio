@@ -110,6 +110,46 @@
                     </div>
                 </div>
             </div>
+
+                        <div class="max-w-[800px] mx-auto">
+                <!-- Internship -->
+                <div class="relative pl-8 sm:pl-12 text-left">
+                    <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
+                    <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
+                        <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
+                            Full Stack Laravel Developer Intern
+                        </h3>
+                        <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium mb-1">
+                            Automobile Association Philippines
+                        </p>
+                        <p class="text-xs sm:text-sm text-[#d1cb95] opacity-60 mb-4">
+                            April 2025 – July 2025
+                        </p>
+                        <ul class="space-y-2 text-sm sm:text-base list-none">
+                            <li class="flex gap-3">
+                                <span class="text-[#40985e] mt-1 shrink-0">▹</span>
+                                <span>Designed and developed an Employee Management System used by HR to manage employee records, internal workflows, and administrative processes using the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire).</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-[#40985e] mt-1 shrink-0">▹</span>
+                                <span>Collaborated with senior developers to design and implement Role-Based Access Control (RBAC) and contributed to database schema planning to support secure permission management and scalable system architecture.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-[#40985e] mt-1 shrink-0">▹</span>
+                                <span>Contributed to the development of a Customer Management System (CMS) used for customer behavior tracking, business analytics, and automated bulk email communication.</span>
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Laravel</span>
+                            <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Livewire</span>
+                            <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Alpine.js</span>
+                            <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Tailwind CSS</span>
+                            <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">MySQL</span>
+                            <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">RBAC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
