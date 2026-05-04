@@ -46,16 +46,29 @@
 
                 <!-- Profile image over circle -->
                 <div class="flex justify-center mt-8 lg:mt-0">
-                    <div class="relative flex items-center justify-center w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px]">
-                        <svg class="absolute inset-0 w-full h-full" viewBox="0 0 400 400">
-                            <circle cx="200" cy="200" r="150" fill="#1a644e" opacity="0.3"/>
-                            <circle cx="200" cy="200" r="120" fill="#40985e" opacity="0.5"/>
-                            <circle cx="200" cy="200" r="90" fill="#d1cb95" opacity="0.3"/>
-                        </svg>
+                    <div class="relative flex items-center justify-center
+                        w-[250px] h-[250px]
+                        sm:w-[350px] sm:h-[350px]
+                        lg:w-[400px] lg:h-[400px]">
+
+                        <!-- Background Circles -->
+                        <div class="absolute inset-0 flex items-center justify-center z-0">
+                            <div class="absolute w-[80%] h-[80%] rounded-full bg-[#1a644e]/30"></div>
+                            <div class="absolute w-[65%] h-[65%] rounded-full bg-[#40985e]/40"></div>
+                            <div class="absolute w-[50%] h-[50%] rounded-full bg-[#d1cb95]/20"></div>
+                        </div>
+
+                        <!-- Profile Image -->
                         <img
                             src="img/profile.png"
                             alt="Victor Aquino"
-                            class="relative z-10 w-[160px] h-[160px] sm:w-[220px] sm:h-[220px] lg:w-[260px] lg:h-[260px] rounded-full object-cover border-4 border-[#40985e] shadow-[0_0_30px_rgba(64,152,94,0.4)]"
+                            class="relative z-10
+                                w-[160px] h-[160px]
+                                sm:w-[220px] sm:h-[220px]
+                                lg:w-[260px] lg:h-[260px]
+                                rounded-full object-cover
+                                border-4 border-[#40985e]
+                                shadow-[0_0_30px_rgba(64,152,94,0.4)]"
                         />
                     </div>
                 </div>
