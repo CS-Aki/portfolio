@@ -47,10 +47,10 @@
                 <!-- Profile image over circle -->
                 <div class="flex justify-center mt-8 lg:mt-0">
                     <div class="relative flex items-center justify-center w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px]">
-                        <svg class="absolute inset-0 w-full h-full" viewBox="0 0 400 400">
-                            <circle cx="400" cy="400" r="150" fill="#1a644e" opacity="0.3"/>
-                            <circle cx="400" cy="400" r="120" fill="#40985e" opacity="0.5"/>
-                            <circle cx="400" cy="400" r="90" fill="#d1cb95" opacity="0.3"/>
+                        <svg class="absolute inset-0 w-full h-full" viewBox="0 0 500 500">
+                            <circle cx="250" cy="250" r="220" fill="#1a644e" opacity="0.3"/>
+                            <circle cx="250" cy="250" r="180" fill="#40985e" opacity="0.5"/>
+                            <circle cx="250" cy="250" r="140" fill="#d1cb95" opacity="0.3"/>
                         </svg>
                         <img
                             src=""
