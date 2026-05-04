@@ -53,7 +53,7 @@
                             <circle cx="250" cy="250" r="140" fill="#d1cb95" opacity="0.3"/>
                         </svg>
                         <img
-                            src="img/profile.jpg"
+                            src="img/profile.png"
                             alt="Victor Aquino"
                             class="relative z-10 w-[160px] h-[160px] sm:w-[220px] sm:h-[220px] lg:w-[260px] lg:h-[260px] rounded-full object-cover border-4 border-[#40985e] shadow-[0_0_30px_rgba(64,152,94,0.4)]"
                         />
