@@ -52,10 +52,10 @@
                         lg:w-[400px] lg:h-[400px]">
 
                         <!-- Background Circles -->
-                        <div class="absolute inset-0 flex items-center justify-center z-0">
-                            <div class="absolute w-[80%] h-[80%] rounded-full bg-[#1a644e]/30"></div>
-                            <div class="absolute w-[65%] h-[65%] rounded-full bg-[#40985e]/40"></div>
-                            <div class="absolute w-[50%] h-[50%] rounded-full bg-[#d1cb95]/20"></div>
+                        <div class="absolute inset-0 z-0">
+                            <div class="absolute inset-0 rounded-full bg-[#1a644e] opacity-30"></div>
+                            <div class="absolute inset-[15%] rounded-full bg-[#40985e] opacity-40"></div>
+                            <div class="absolute inset-[30%] rounded-full bg-[#d1cb95] opacity-30"></div>
                         </div>
 
                         <!-- Profile Image -->
