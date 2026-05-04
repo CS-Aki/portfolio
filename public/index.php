@@ -74,42 +74,69 @@
     <!-- Experience Section -->
     <section id="experience" class="flex items-center justify-center text-center min-h-screen px-4 sm:px-8 pt-24 pb-16 bg-[#04373b]">
         <div class="max-w-[1200px] w-full">
+            <!-- Header -->
             <div class="mb-8 sm:mb-12 text-center">
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl text-[#40985e] font-bold mb-4 sm:mb-8">Experience</h2>
-                <p class="text-base sm:text-lg px-4">Where I've worked and what I've built</p>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl text-[#40985e] font-bold mb-4">
+                    Experience
+                </h2>
+                <p class="text-base sm:text-lg">
+                    Where I've worked and what I've built
+                </p>
             </div>
 
             <div class="max-w-[800px] mx-auto">
-                <!-- Timeline item -->
+
+                <!-- EXPERIENCE ITEM -->
                 <div class="relative pl-8 sm:pl-12 pb-10 border-l-2 border-[#1a644e] text-left">
+
                     <!-- Timeline dot -->
                     <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div>
 
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
-                        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-3">
-                            <h3 class="text-[#40985e] text-lg sm:text-xl font-bold">
-                                Full Stack Laravel Developer Intern
-                            </h3>
 
-                            <span class="text-sm text-[#d1cb95] opacity-70 whitespace-nowrap">
+                        <!-- HEADER FIX -->
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+
+                            <div>
+                                <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug">
+                                    Full Stack Laravel Developer Intern
+                                </h3>
+                                <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium">
+                                    Automobile Association Philippines
+                                </p>
+                            </div>
+
+                            <span class="text-sm text-[#d1cb95] opacity-70 whitespace-nowrap mt-1 sm:mt-0">
                                 April 2025 – July 2025
                             </span>
+
                         </div>
-                        <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium mb-4">Automobile Association Philippines</p>
+
+                        <!-- BULLETS -->
                         <ul class="space-y-2 text-sm sm:text-base list-none">
                             <li class="flex gap-3">
                                 <span class="text-[#40985e] mt-1">▹</span>
-                                <span>Designed and developed an Employee Management System used by HR to manage employee records, internal workflows, and administrative processes using the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire).</span>
+                                <span>
+                                    Designed and developed an Employee Management System used by HR to manage employee records, internal workflows, and administrative processes using the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire).
+                                </span>
                             </li>
+
                             <li class="flex gap-3">
                                 <span class="text-[#40985e] mt-1">▹</span>
-                                <span>Collaborated with senior developers to design and implement Role-Based Access Control (RBAC) and contributed to database schema planning to support secure permission management and scalable system architecture.</span>
+                                <span>
+                                    Collaborated with senior developers to design and implement Role-Based Access Control (RBAC) and contributed to database schema planning to support secure permission management and scalable system architecture.
+                                </span>
                             </li>
+
                             <li class="flex gap-3">
                                 <span class="text-[#40985e] mt-1">▹</span>
-                                <span>Contributed to the development of a Customer Management System (CMS) used for customer behavior tracking, business analytics, and automated bulk email communication.</span>
+                                <span>
+                                    Contributed to the development of a Customer Management System (CMS) used for customer behavior tracking, business analytics, and automated bulk email communication.
+                                </span>
                             </li>
                         </ul>
+
+                        <!-- TAGS -->
                         <div class="flex flex-wrap gap-2 mt-4">
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Laravel</span>
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">Livewire</span>
@@ -118,22 +145,41 @@
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">MySQL</span>
                             <span class="bg-[#04373b] py-1 px-3 border border-[#1a644e] rounded-2xl text-xs sm:text-sm">RBAC</span>
                         </div>
+
                     </div>
                 </div>
 
-                <!-- Education item (bonus) -->
+                <!-- EDUCATION ITEM -->
                 <div class="relative pl-8 sm:pl-12 text-left">
+
                     <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#1a644e] border-2 border-[#04373b]"></div>
 
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
-                        <div class="flex flex-col gap-1 mb-3">
-                            <h3 class="text-[#40985e] text-lg sm:text-xl font-bold block">BS Computer Science — Cum Laude</h3>
-                            <span class="text-sm text-[#d1cb95] opacity-70 whitespace-nowrap">Graduated 2025</span>
+
+                        <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
+
+                            <div>
+                                <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug">
+                                    BS Computer Science — Cum Laude
+                                </h3>
+                                <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium">
+                                    University of Caloocan City
+                                </p>
+                            </div>
+
+                            <span class="text-sm text-[#d1cb95] opacity-70 whitespace-nowrap mt-1 sm:mt-0">
+                                Graduated 2025
+                            </span>
+
                         </div>
-                        <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium mb-2">University of Caloocan City</p>
-                        <p class="text-sm sm:text-base">Cumulative GWA: 1.26 &nbsp;·&nbsp; TESDA NC III Java Programming (2024)</p>
+
+                        <p class="text-sm sm:text-base">
+                            Cumulative GWA: 1.26 · TESDA NC III Java Programming (2024)
+                        </p>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
