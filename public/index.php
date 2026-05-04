@@ -76,24 +76,50 @@
                 <div class="relative pl-8 sm:pl-12 text-left">
                     <!-- <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div> -->
                     <div class="relative bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-6 sm:p-8 pt-14 sm:pt-8">
-                       <div class="relative mb-6 w-full">
-                            <div class="absolute top-4 right-4 sm:top-6 sm:right-6 text-right">
-                                <span class="text-xs sm:text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
-                                    April 2025 – July 2025
-                                </span>
-                            </div>
+                      <div class="relative mb-6 w-full">
 
-                            <div>
-                                <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
+                        <!-- MOBILE DATE (absolute) -->
+                        <div class="absolute top-4 right-4 sm:hidden text-right">
+                            <span class="text-xs text-[#d1cb95] opacity-60 whitespace-nowrap">
+                                April 2025 – July 2025
+                            </span>
+                        </div>
+
+                        <!-- DESKTOP LAYOUT -->
+                        <div class="hidden sm:flex sm:items-start sm:justify-between gap-4">
+
+                            <!-- Left side -->
+                            <div class="flex-1 min-w-0">
+                                <h3 class="text-[#40985e] text-xl font-bold leading-snug mb-1">
                                     Full Stack Laravel Developer Intern
                                 </h3>
 
-                                <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium">
+                                <p class="text-[#40985e] opacity-80 text-base font-medium">
                                     Automobile Association Philippines
                                 </p>
                             </div>
 
+                            <!-- Right side (desktop date) -->
+                            <div class="flex-shrink-0 text-right">
+                                <span class="text-sm text-[#d1cb95] opacity-60 whitespace-nowrap">
+                                    April 2025 – July 2025
+                                </span>
+                            </div>
+
                         </div>
+
+                        <!-- MOBILE TEXT (so it doesn't collide with absolute date) -->
+                        <div class="sm:hidden pt-10">
+                            <h3 class="text-[#40985e] text-lg font-bold leading-snug mb-1">
+                                Full Stack Laravel Developer Intern
+                            </h3>
+
+                            <p class="text-[#40985e] opacity-80 text-sm font-medium">
+                                Automobile Association Philippines
+                            </p>
+                        </div>
+
+                    </div>
                         <ul class="space-y-2 text-sm sm:text-base list-none">
                             <li class="flex gap-3">
                                 <span class="text-[#40985e] mt-1 shrink-0">▹</span>
