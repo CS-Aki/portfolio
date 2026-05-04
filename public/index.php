@@ -17,17 +17,6 @@
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="flex items-center justify-center text-center min-h-screen px-4 sm:px-8 pt-24 pb-16 bg-gradient-to-br from-[#04373b] to-[#0a1a2f]">
-        <div class="max-w-[1200px] w-full">
-            <div>
-                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 text-[#40985e] animate-in fade-in slide-in-from-top duration-1000">Full-Stack Developer</h1>
-                <p class="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 px-4">Crafting digital experiences with passion and precision</p>
-                <a href="#projects" class="inline-block py-3 sm:py-4 px-6 sm:px-8 text-sm sm:text-base text-[#d1cb95] bg-[#1a644e] no-underline border-2 border-[#1a644e] rounded-md transition-all duration-300 hover:bg-transparent hover:border-[#40985e] hover:text-[#40985e] hover:-translate-y-0.5">View My Work</a>
-            </div>
-        </div>
-    </section>
-
     <!-- About Section -->
     <section id="about" class="flex items-center justify-center text-center min-h-screen px-4 sm:px-8 pt-24 pb-16 bg-[#0a1a2f]">
         <div class="max-w-[1200px] w-full">
@@ -37,6 +26,12 @@
                     <p class="text-base sm:text-lg mb-4 sm:mb-6">I'm Victor, a Computer Science graduate from the University of Caloocan City — and honestly, I just really enjoy building things that work well.</p>
                     <p class="text-base sm:text-lg mb-4 sm:mb-6">My background is mostly full-stack web development. I'm most comfortable in Laravel and Java, but I've picked up a pretty wide stack over time — spanning everything from IoT systems to mobile apps. I tend to gravitate toward projects where the backend logic actually has to think, not just move data around.</p>
                     <p class="text-base sm:text-lg mb-4 sm:mb-6">I'm currently looking for opportunities where I can keep growing, contribute to a solid team, and work on problems that are actually worth solving.</p>
+
+                    <!-- Education one-liner -->
+                    <p class="text-sm text-[#d1cb95] opacity-60 mb-5">
+                        🎓 BS Computer Science, Cum Laude · GWA 1.26 · TESDA NC III Java (2024)
+                    </p>
+
                     <div class="flex flex-wrap gap-3 sm:gap-4 mt-2">
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">Cloud Services</span>
                         <span class="bg-[#04373b] py-2 px-3 sm:px-4 border border-[#1a644e] rounded-2xl text-sm sm:text-base">PHP</span>
@@ -77,9 +72,8 @@
             </div>
 
             <div class="max-w-[800px] mx-auto">
-
                 <!-- Internship -->
-                <div class="relative pl-8 sm:pl-12 pb-10 border-l-2 border-[#1a644e] text-left">
+                <div class="relative pl-8 sm:pl-12 text-left">
                     <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#40985e] border-2 border-[#04373b]"></div>
                     <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
                         <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
@@ -115,24 +109,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Education -->
-                <div class="relative pl-8 sm:pl-12 text-left">
-                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#1a644e] border-2 border-[#04373b]"></div>
-                    <div class="bg-[#0a1a2f] rounded-[10px] border border-[#1a644e] p-5 sm:p-6">
-                        <h3 class="text-[#40985e] text-lg sm:text-xl font-bold leading-snug mb-1">
-                            BS Computer Science — Cum Laude
-                        </h3>
-                        <p class="text-[#40985e] opacity-80 text-sm sm:text-base font-medium mb-1">
-                            University of Caloocan City
-                        </p>
-                        <p class="text-xs sm:text-sm text-[#d1cb95] opacity-60 mb-4">
-                            Graduated 2025
-                        </p>
-                        <p class="text-sm sm:text-base">Cumulative GWA: 1.26 &nbsp;·&nbsp; TESDA NC III Java Programming (2024)</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
