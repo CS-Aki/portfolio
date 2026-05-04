@@ -49,22 +49,22 @@
                     <div class="relative flex items-center justify-center 
                                 w-[250px] h-[250px] 
                                 sm:w-[350px] sm:h-[350px] 
-                                lg:w-[400px] lg:h-[400px] p-8">
+                                lg:w-[400px] lg:h-[400px]">
 
-                        <!-- Background circle -->
-                        <svg class="absolute inset-0 w-full h-full z-0" viewBox="0 0 100 100">
+                        <!-- Background circle (bigger than container) -->
+                        <svg class="absolute w-[120%] h-[120%] z-0" viewBox="0 0 100 100">
                             <circle cx="50" cy="50" r="48" fill="#40985e" opacity="0.25"/>
                             <circle cx="50" cy="50" r="40" fill="#1a644e" opacity="0.35"/>
                         </svg>
 
-                        <!-- Image (smaller now) -->
+                        <!-- Image -->
                         <img
                             src="img/profile.png"
                             alt="Victor Aquino"
                             class="relative z-10 
-                                w-[140px] h-[140px] 
-                                sm:w-[180px] sm:h-[180px] 
-                                lg:w-[220px] lg:h-[220px] 
+                                w-[160px] h-[160px] 
+                                sm:w-[220px] sm:h-[220px] 
+                                lg:w-[260px] lg:h-[260px] 
                                 rounded-full object-cover 
                                 border-4 border-[#40985e] 
                                 shadow-[0_0_30px_rgba(64,152,94,0.4)]"
